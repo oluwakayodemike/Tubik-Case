@@ -10,6 +10,11 @@ nav {
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+  }
+
 ul, li {
     display: inline;
     margin: 0;
@@ -81,16 +86,19 @@ ul {
 
 .about {
     background-color: rgb(179,134,253);
-    flex-basis: 40%;
-    height: 90%;
+    flex-basis: 48.5%;
     margin: 15px 0 0  0;
-    border-radius: 25px;    
+    border-radius: 25px; 
+    height: 90%;
+   
 }
 
 .contact {
     background-color: rgb(177,240,65);
-    height: 20px;
-    width: 20px;
+    flex-basis: 48.5%;
+    margin: 15px 0 0  0;
+    border-radius: 25px; 
+    height: 90%;
 }
 
 
