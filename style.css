@@ -1,0 +1,82 @@
+body {
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+
+nav {
+    margin: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul, li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    /* any-link: none; */
+}
+
+.log-in  {
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+}
+
+.sign-up {
+    text-decoration: none;
+    border-color: black;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    font-size: 11px;
+    color: white;
+}
+
+
+/* section {
+    display: flex;
+} */
+
+.offer {
+    margin-top: 40px;
+    margin-left: 30px;
+    /* border: 6px solid red; */
+    background-color: rgba(37, 36, 36, 0.966);
+    border-radius: 5%;
+    width: 40% ;
+    height: 550px;
+}
+
+/* .blog {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+} */
+
+
+
+@media (max-width: 450px) {
+    nav, ul {
+        flex-direction: column;
+    }
+    .entry {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 800px) {
+    ul {
+        max-width: 35%;
+    }
+}
