@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(238,239,243);
     margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@ ul {
 }
 
 .log-in  {
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgb(222,223,227);
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 11px;
@@ -36,8 +36,8 @@ ul {
 .sign-up {
     margin-right: 19px;
     text-decoration: none;
-    border-color: black;
-    background-color: black;
+    border-color: rgb(38,38,38);
+    background-color: rgb(38,38,38);
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
     font-size: 11px;
@@ -57,33 +57,41 @@ ul {
 .offer {
     /* margin-top: 40px; */
     margin-left: 20px;
-    background-color: rgba(37, 36, 36, 0.966);
+    background-color: rgba(38,38,38);
     border-radius: 4%;
     height: 530px;
-    flex-basis: 42%;
+    flex-basis: 43.5%;
 }
 
 .col-2 {
     flex-basis: 53%;
 }
 .blog {
-    background-color: red;
+    background-color: rgb(215,216,220);
     border-radius: 26px;
-    height: 60%;
+    height: 54%;
+}
+
+.col-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 48%;
 }
 
 .about {
-    background-color: green;
-    height: 20px;
-    width: 20px;
+    background-color: rgb(179,134,253);
+    flex-basis: 40%;
+    height: 90%;
+    margin: 15px 0 0  0;
+    border-radius: 25px;    
 }
 
 .contact {
-    background-color: blue;
+    background-color: rgb(177,240,65);
     height: 20px;
     width: 20px;
 }
-
 
 
 @media (max-width: 450px) {
