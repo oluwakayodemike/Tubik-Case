@@ -2,9 +2,8 @@ body {
     background-color: rgb(238,239,243);
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
-    user-select: none;
+    /* user-select: none; */
 }
-
 
 nav {
     margin: 20px 5px;
@@ -55,7 +54,6 @@ ul {
 .container {
     padding: 10px 2%;
 }
-
 .rows {
     display: flex;
     justify-content: space-between;
