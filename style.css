@@ -2,11 +2,12 @@ body {
     background-color: rgb(238,239,243);
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
+    user-select: none;
 }
 
 
 nav {
-    margin: 15px 5px;
+    margin: 20px 5px;
     display: flex;
     justify-content: space-between;
 }
@@ -14,7 +15,7 @@ nav {
 a {
     text-decoration: none;
     color: black;
-  }
+}
 .entry {
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -27,9 +28,7 @@ ul {
     flex: 1;
     max-width: 50%;
     display: flex;
-    /* border: 1px solid red; */
     justify-content: space-evenly;
-    /* any-link: none; */
 }
 
 .log-in  {
@@ -42,7 +41,7 @@ ul {
 }
 
 .sign-up {
-    margin-right: 19px;
+    margin-right: 21.5px;
     text-decoration: none;
     border-color: rgb(38,38,38);
     background-color: rgb(38,38,38);
@@ -54,7 +53,7 @@ ul {
 
 
 .container {
-    padding: 10px 1.6%;
+    padding: 10px 2%;
 }
 
 .rows {
@@ -64,11 +63,42 @@ ul {
 }
 .offer {
     /* margin-top: 40px; */
-    margin-left: 10px;
+    /* margin-left: 10px; */
     background-color: rgba(38,38,38);
     border-radius: 4%;
     height: 530px;
     flex-basis: 43.5%;
+}
+.offer-content {
+    margin: 40px;
+}
+.more {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgba(238,239,243, 0.8);
+    font-size: small;
+}
+.info {
+    color: rgb(238,239,243);
+    font-size: 10vh;
+    margin-top: 20px;
+}
+.shop {
+    background-color: rgb(238,239,243);
+    border-radius: 10px;
+    padding: 2px 40px;
+    font-size: 11px;
+    width: 30%;
+    color: black;
+    margin-top: 25%;
+}
+.shop-s {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: smaller;
+    color: rgba(129, 122, 122, 0.9);
+}
+.products {
+    font-size: 15px;
+    margin: 3px 0 10px;
 }
 
 .col-2 {
@@ -112,10 +142,54 @@ ul {
     .entry {
         margin-top: 10px;
     }
+    .container {
+        padding: 2%;
+    }
+
+    .rows{
+        display: block;
+    }
+
+    .offer{
+        height: 400px;
+    }
+    .offer-content{
+        margin: 20px;
+    }
+    .more{
+        padding-top: 20px;
+        margin: 0;
+    }
+    .info{
+        font-size: 5vh;
+    }
+
+    .blog{
+        margin-top: 8px;
+        height: 200px;
+    }
+
+    .col-3 {
+        margin-top: 10px;
+        height: 220px;
+    }
+    .about, .contact {
+        margin: 0;
+    }
 }
 
-@media (min-width: 800px) {
-    ul {
-        max-width: 35%;
+@media (min-width: 352) {
+    .offer{
+        height: 300px;
+    }
+    .offer-content{
+        margin: 20px;
+    }
+    .more{
+        padding-top: 20px;
+        margin: 0;
+    }
+    .info{
+        font-size: 6vh;
     }
 }
