@@ -1,5 +1,5 @@
 # Tubik - Case Study: Hearing Support Tech Product
-This is a Test Code version of the Landing Page of a Case Study by the Amazing [Tubik Studio](https://dribbble.com/tubik_ux/about) gotten from Dribble.
+This is a Test Coded version of the Landing Page of a Case Study by the Amazing [Tubik Studio](https://dribbble.com/tubik_ux/about) gotten from Dribble.
 ## Tubik Version
 ![Dribble Build](https://github.com/oluwakayodemike/Tubik-Case/assets/104535663/0483f60f-85ba-4a5e-b4e0-3a78d113f626)
 
