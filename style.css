@@ -60,7 +60,7 @@ ul {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.offer {
+section.offer {
     font-weight: 500;
     background-color: rgba(38,38,38);
     border-radius: 4%;
@@ -69,10 +69,6 @@ ul {
     display: flex;
     flex-direction: column;
 }
-.offer-content {
-
-}
-
 .more {
     margin: 40px 0 10px 40px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -86,7 +82,7 @@ ul {
     margin-top: 20px;
 }
 .shop {
-    margin: 40px 0 10px 40px;
+    margin-left: 40px;
     background-color: rgb(238,239,243);
     border-radius: 10px;
     padding: 2px 40px;
@@ -164,28 +160,21 @@ ul {
         margin-top: 10px;
     }
     .container {
-        padding: 3%;
+        padding: 2%;
     }
 
     .rows{
         display: block;
     }
 
-    .offer{
+    section.offer{
         height: 420px;
     }
-    .offer-content{
-        margin: 20px;
-    }
-    .more{
-        padding-top: 20px;
-        margin: 0;
+    .more, .info, .shop {
+        margin-left: 25px;
     }
     .info{
-        font-size: 5vh;
-    }
-    .shop{
-        margin-top: 30%;
+        font-size: 5.5vh;
     }
 
     .blog{
