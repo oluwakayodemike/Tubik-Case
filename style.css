@@ -81,6 +81,7 @@ section.offer {
     font-size: 10vh;
     margin-top: 20px;
 }
+
 .shop {
     margin-left: 40px;
     background-color: rgb(238,239,243);
@@ -90,6 +91,11 @@ section.offer {
     width: 30%;
     color: black;
     margin-top: 26%;
+    cursor: pointer;
+}
+.shop a {
+    text-decoration: none;
+    outline: none;
 }
 .shop-s {
     font-family: 'Noto Sans JP', sans-serif;
@@ -181,6 +187,9 @@ p.view{
     .blog{
         margin-top: 8px;
         height: 200px;
+    }
+    p.view{
+        font-size: 5.5vh;
     }
 
     .col-3 {
