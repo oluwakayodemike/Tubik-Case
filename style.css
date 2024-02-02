@@ -123,10 +123,11 @@ section.offer {
     font-size: smaller;
     margin: 0;
 }
-.view{
+p.view{
     padding: 20px;
     text-align: bottom;
     margin: 0;
+    font-size: 8vh;
 }
 
 .col-3 {
