@@ -124,6 +124,17 @@ section.offer {
     margin: 0;
     padding: 20px;
 }
+span.side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#arrow{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    padding: 6px ;
+}
 .text{
     padding: 20px;
     font-family: 'Noto Sans JP', sans-serif;
