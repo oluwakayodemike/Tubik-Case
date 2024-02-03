@@ -133,16 +133,8 @@ span.side{
     width: 50px;
     height: 50px;
     align-items: center;
-    padding: 6px ;
-    outline: none;
-}
-#arrow:focus{
-    outline: none;
-}
-.side a {
-    text-decoration: none;
-    outline: none;
-}
+    padding: 6px;
+}   
 .text{
     padding: 20px;
     font-family: 'Noto Sans JP', sans-serif;
