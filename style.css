@@ -94,7 +94,8 @@ section.offer {
     cursor: pointer;
 }
 .shop-link {
-    display: inline-block;
+    /* making tab display shop and all products as one */
+    display: inline-block; 
     color: inherit;
 }
 .shop-s {
