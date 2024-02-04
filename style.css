@@ -180,6 +180,9 @@ p.about-us {
 
 
 .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: rgb(177,240,65);
     flex-basis: 49%;
     margin: 15px 0 0  0;
