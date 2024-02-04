@@ -192,20 +192,45 @@ p.question {
     font-size: x-small;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (min-width: 880px) and (max-width: 1000px) {
     div.group-em{
         margin-left: 8%;
     }
     section.offer {
         border-radius: 5%;
     }
+    .shop{
+        margin-top: 25%;
+    }
     .info{
         font-size: 9vh;
     }
-    p.contact-about {
-        font-size: 6vh;
+    .contact-about {
+        font-size: 7vh !important;
+        padding: 15px !important;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 880px) {
+    div.group-em{
+        margin-left: 5%;
+    }
+    .info{
+        font-size: 8.2vh;
+    }
+    .shop{
+        margin-top: 30%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .rows{
+        display: block;
+    }
+    .offer {
+
+    }
+}
+
 @media (max-width: 450px) {
     nav, ul {
         flex-direction: column;
