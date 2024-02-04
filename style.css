@@ -228,7 +228,7 @@ p.questions {
 
 
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 561px) and (max-width: 768px) {
     .rows{
         display: block;
     }
@@ -243,11 +243,46 @@ p.questions {
     }
     .blog{
         margin-top: 8px;
-        height: 200px;
+        height: 250px;
+    }
+    .blog-view{
+        font-size: 10vh !important;
+    }
+    .col-3 {
+        height: 220px;
     }
 }
 
-
+@media screen and (min-width: 481px) and (max-width: 561px) {
+    .rows{
+        display: block;
+    }
+    .offer {
+        border-radius: 20px;
+    }
+    .info {
+        font-size: 11vh;
+    }
+    .shop {
+        margin-top: 13%;
+    }
+    .blog{
+        margin-top: 8px;
+        height: 250px;
+    }
+    .blog-view{
+        font-size: 9vh !important;
+    }
+    .col-3 {
+        height: 220px;
+    }
+    .contact-about{
+        font-size: 7vh !important;
+    }
+    .group-em {
+        margin-left: 30px;
+    }
+}
 
 @media (max-width: 480px) {
     nav, ul {
