@@ -136,7 +136,7 @@ span.side{
     padding: 6px;
 }   
 .text{
-    color: rgba(38,38,38);
+    /* color: rgba(38,38,38); */
     padding: 20px;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: smaller;
@@ -189,7 +189,15 @@ p.about-us {
     border-radius: 25px; 
     height: 90%;
 }
+p.question {
+    font-size: x-small;
+}
 
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    p.contact-about {
+        font-size: 6vh;
+    }
+}
 @media (max-width: 450px) {
     nav, ul {
         flex-direction: column;
