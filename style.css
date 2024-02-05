@@ -353,11 +353,17 @@ p.questions {
     section.offer{
         height: 420px;
     }
+    .products {
+        font-size: 13px;
+    }
     .group-em {
         margin: 25px;
     }
     .info{
-        font-size: 7vh;
+        font-size: 6vh;
+    }
+    .shop {
+        margin-top: 28%;
     }
 
     .blog{
@@ -365,14 +371,15 @@ p.questions {
         height: 200px;
     }
     p.view{
-        font-size: 5.5vh;
+        font-size: 6vh;
     }
 
     .col-3 {
-        margin-top: 10px;
+        margin-top: 8px;
         height: 220px;
+        display: block;
     }
     .about, .contact {
-        margin: 0;
+        height: 180px;
     }
 }
